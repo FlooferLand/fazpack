@@ -14,14 +14,21 @@
     "BlockParticleSetId": "Stone",
     "Textures": [
       {
-        "All": "BlockTextures/Floor_BlackWhite_Checkered.png",
+        "All": "BlockTextures/Ceiling_Yellow_BlockLight.png",
         "Weight": 1
       }
     ],
     "ParticleColor": "#3d3e3e",
     "BlockSoundSetId": "Stone",
     "TransitionTexture": "BlockTextures/Transition_Ashes.png",
-    "Material": "Solid"
+    "Material": "Solid",
+    "CubeShadingMode": "Fullbright",
+    "Light": {
+      "Color": "#f90",
+      "Radius": 16
+    },
+    "AmbientSoundEventId": "SFX_Ceiling_Yellow_BlockLight_Hum_Loop",
+    "Looping": true
   },
   "Tags": {
     "Type": [
@@ -41,5 +48,5 @@
       -13.5
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Floor_BlackWhite_Checkered.png"
+  "Icon": "Icons/ItemsGenerated/Ceiling_Yellow_BlockLight.png"
 }
