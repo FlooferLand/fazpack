@@ -9,10 +9,11 @@ public class FazpackPlugin extends JavaPlugin {
 
     public FazpackPlugin(JavaPluginInit init) {
         super(init);
-        LOGGER.atInfo().log("Initialized %s v%s", getName(), getManifest().getVersion().toString());
+	    LOGGER.atInfo().log("Initialized %s v%s", getName(), getManifest().getVersion().toString());
     }
 
     @Override
     protected void setup() {
+	    LOGGER.atWarning().log("Fazpack is in very early access, a lot of things are missing and/or buggy.");
     }
 }

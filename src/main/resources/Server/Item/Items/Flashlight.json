@@ -1,0 +1,29 @@
+{
+  "Model": "Resources/Items/Flashlight.blockymodel",
+  "Texture": "Resources/Items/Flashlight.png",
+  "IconProperties": {
+    "Scale": 1.6,
+    "Rotation": [
+      22.5,
+      45,
+      29
+    ],
+    "Translation": [
+      1,
+      -4
+    ]
+  },
+  "Light": {
+    "Radius": 12,
+    "Color": "#cef"
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Flashlight.name"
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Torch",
+  "Icon": "Icons/ItemsGenerated/Flashlight.png",
+  "Categories": [
+    "Items.Tools"
+  ]
+}

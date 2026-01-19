@@ -39,6 +39,7 @@ java {
 }
 
 tasks.named<ProcessResources>("processResources") {
+    exclude("Projects")
     var replaceProperties = mapOf(
         "plugin_group" to findProperty("plugin_group"),
         "plugin_maven_group" to project.group,
