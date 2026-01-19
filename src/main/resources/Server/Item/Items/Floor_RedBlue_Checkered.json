@@ -1,27 +1,26 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Generic_Black_Tile.name"
+    "Name": "server.items.Floor_RedBlue_Checkered.name"
   },
   "ItemLevel": 600,
   "Categories": [
     "Blocks.Stones"
   ],
   "PlayerAnimationsId": "Block",
-  "Set": "FNaF_Generic",
+  "Set": "FNaF_Floors",
   "BlockType": {
     "DrawType": "Cube",
     "Group": "Stone",
     "BlockParticleSetId": "Stone",
     "Textures": [
       {
-        "All": "BlockTextures/Generic_Black_Tile.png",
+        "All": "BlockTextures/Floor_RedBlue_Checkered.png",
         "Weight": 1
       }
     ],
     "ParticleColor": "#3d3e3e",
     "BlockSoundSetId": "Stone",
     "TransitionTexture": "BlockTextures/Transition_Ashes.png",
-    "TransitionToGroups": [],
     "Material": "Solid"
   },
   "Tags": {
@@ -42,5 +41,5 @@
       -13.5
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Generic_Black_Tile.png"
+  "Icon": "Icons/ItemsGenerated/Floor_RedBlue_Checkered.png"
 }

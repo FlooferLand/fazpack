@@ -13,8 +13,9 @@
       }
     }
   ],
-  "Volume": -18,
+  "Volume": -22,
   "Parent": "SFX_Attn_VeryQuiet",
-  "MaxInstance": 10,
-  "MaxDistance": 8
+  "MaxInstance": 5,
+  "MaxDistance": 8,
+  "PreventSoundInterruption": true
 }
