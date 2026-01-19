@@ -1,6 +1,8 @@
 package com.flooferland.fazpack;
 
 import com.hypixel.hytale.logger.HytaleLogger;
+import com.hypixel.hytale.server.core.Message;
+import com.hypixel.hytale.server.core.event.events.player.PlayerConnectEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 
@@ -14,6 +16,10 @@ public class FazpackPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-	    LOGGER.atWarning().log("Fazpack is in very early access, a lot of things are missing and/or buggy.");
+		final String earlyMessage = "The Fazpack mod is in very early access, a lot of things are missing and/or buggy.";
+	    LOGGER.atWarning().log(earlyMessage);
+		getEventRegistry().registerGlobal(PlayerConnectEvent.class, event -> {
+			event.getPlayerRef().sendMessage(Message.raw("NOTE: " + earlyMessage));
+		});
     }
 }
