@@ -1,0 +1,16 @@
+{
+  "Interactions": [
+    {
+      "Type": "Chaining",
+      "ChainingAllowance": 15,
+      "Next": [
+        "Skeleton_Fighter_Club_Swing_Down"
+      ]
+    }
+  ],
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  }
+}
