@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_FNaF_Party_Chair.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Set": "Furniture_FNaF",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      2.5,
+      -18.6
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/FNaF/Party_Chair.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/FNaF/Party_Chair_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "Chair",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#060606",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Seats": [
+      {}
+    ],
+    "Interactions": {
+      "Use": "Block_Seat"
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Stone",
+    "RandomRotation": "None"
+  },
+  "Model": "Blocks/Decorative_Sets/FNaF/Party_Chair.blockymodel",
+  "Texture": "Blocks/Decorative_Sets/FNaF/Party_Chair_Texture.png",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Furniture_Party_Chair.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

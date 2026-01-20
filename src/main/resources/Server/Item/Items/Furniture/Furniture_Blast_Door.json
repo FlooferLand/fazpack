@@ -1,0 +1,104 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Blast_Door.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Doors"
+  ],
+  "Set": "Furniture_FNaF",
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -27.13
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Rock_Shale",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Door"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/FNaF/Blast_Door.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/FNaF/Blast_Door_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Door",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "OpenDoorIn": {
+          "HitboxType": "Door_Open_In",
+          "InteractionHitboxType": "Door",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Blocks/Animations/Blast_Door/Door_Open.blockyanim"
+        },
+        "OpenDoorOut": {
+          "HitboxType": "Door_Open_Out",
+          "InteractionHitboxType": "Door",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Blocks/Animations/Blast_Door/Door_Open.blockyanim"
+        },
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Blast_Door/Door_Close.blockyanim"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Blast_Door/Door_Close.blockyanim"
+        },
+        "DoorBlocked": {}
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Stone",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "Door"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "FNaF"
+    ]
+  },
+  "Scale": 0.8,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Icon": "Icons/ItemsGenerated/Furniture_Blast_Door.png"
+}

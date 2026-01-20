@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_FNaF_Party_Table.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Set": "Furniture_FNaF",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      23.625,
+      45,
+      22.5
+    ],
+    "Translation": [
+      10.8,
+      -9.6
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/FNaF/Party_Table.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/FNaF/Party_Table_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "Desk",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Wood"
+  },
+  "Model": "Blocks/Decorative_Sets/FNaF/Party_Table.blockymodel",
+  "Texture": "Blocks/Decorative_Sets/FNaF/Party_Table_Texture.png",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "FNaF"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Icon": "Icons/ItemsGenerated/Furniture_Party_Table.png"
+}
