@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.flooferland"
-version = "0.1.0"
+version = findProperty("plugin_version") as String
 val javaVersion = 25
 
 repositories {
