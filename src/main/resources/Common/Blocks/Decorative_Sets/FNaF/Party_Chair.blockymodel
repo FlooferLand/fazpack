@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "cube",
-      "position": {"x": 0, "y": 15, "z": -4},
+      "position": {"x": 0, "y": 15, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -55,7 +55,7 @@
     {
       "id": "2",
       "name": "cube",
-      "position": {"x": 0, "y": 13, "z": -4},
+      "position": {"x": 0, "y": 13, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -107,7 +107,7 @@
     {
       "id": "3",
       "name": "cube",
-      "position": {"x": 0, "y": 5, "z": -4},
+      "position": {"x": 0, "y": 5, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -159,7 +159,7 @@
     {
       "id": "4",
       "name": "cube",
-      "position": {"x": 0, "y": 19.25, "z": -18},
+      "position": {"x": 0, "y": 19.25, "z": -14},
       "orientation": {"x": -0.76041, "y": 0, "z": 0, "w": 0.64945},
       "shape": {
         "type": "box",
@@ -211,7 +211,7 @@
     {
       "id": "5",
       "name": "cube",
-      "position": {"x": -7.5, "y": 31.07034, "z": -16.0032},
+      "position": {"x": -7.5, "y": 31.07034, "z": -12.0032},
       "orientation": {"x": -0.74885, "y": -0.11278, "z": 0.13204, "w": 0.63958},
       "shape": {
         "type": "box",
@@ -263,7 +263,7 @@
     {
       "id": "6",
       "name": "cube",
-      "position": {"x": 7.5, "y": 31.07034, "z": -16.0032},
+      "position": {"x": 7.5, "y": 31.07034, "z": -12.0032},
       "orientation": {"x": -0.74885, "y": 0.11278, "z": -0.13204, "w": 0.63958},
       "shape": {
         "type": "box",
