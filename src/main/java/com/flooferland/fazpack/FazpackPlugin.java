@@ -16,7 +16,7 @@ public class FazpackPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-		final String earlyMessage = "The Fazpack mod is in early access, a lot of things are missing and/or buggy.";
+		final String earlyMessage = "The Fazpack mod is in very early access, a lot of things are missing and/or buggy.";
 	    LOGGER.atWarning().log(earlyMessage);
 		getEventRegistry().registerGlobal(PlayerConnectEvent.class, event -> {
 			event.getPlayerRef().sendMessage(Message.raw("NOTE: " + earlyMessage));
